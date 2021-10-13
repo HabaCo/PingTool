@@ -1,5 +1,5 @@
 # PingTool
-A simple ping tool with customizable arguments
+A simple ping tool with customizable arguments for android
 
 ### Simple Build
  - with default options
