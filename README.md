@@ -37,12 +37,12 @@ A simple ping tool with customizable arguments for android
     // set target host
     pingTool.destination = "127.0.0.1"
 
-    // run asynchronized with arguments from options builder
+    // run synchronized with arguments from options builder
     pingTool.runSync().also { pingResult ->
         // do stuff with pingResult
     }
     
-    // or run asynchronized with custom arguments
+    // or run synchronized with custom arguments
     pingTool.runSync(" -i 200 ").also { pingResult ->
             // do stuff with pingResult
         }
